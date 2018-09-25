@@ -95,7 +95,7 @@ class Game extends React.Component {
                 <div className="game-info">
                     <p>{status}</p>
                     <ol>{isReverse ? moves.reverse() : moves}</ol>
-                    <button onClick={() => this.changeReverse(isReverse )}>Reverse list</button>
+                    <button onClick={() => this.changeReverse(isReverse )}>Sort</button>
                 </div>
             </div>
         );
